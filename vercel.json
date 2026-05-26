@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/bfhl", "destination": "/api/bfhl" }
+  ],
+  "functions": {
+    "api/bfhl.ts": {
+      "memory": 1024,
+      "maxDuration": 10
+    }
+  }
+}

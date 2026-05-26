@@ -1,0 +1,9 @@
+# Render Blueprint — deploy at https://dashboard.render.com/blueprints
+services:
+  - type: web
+    name: bfhl-api
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /

@@ -1,0 +1,10 @@
+target/
+.vercel/
+node_modules/
+dist/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.DS_Store

@@ -1,0 +1,16 @@
+target/
+.git/
+.idea/
+*.iml
+node_modules/
+api/
+lib/
+.vercel/
+vercel.json
+package.json
+package-lock.json
+tsconfig.json
+.vercelignore
+railway.toml
+render.yaml
+README.md
