@@ -1,9 +1,7 @@
 package in.acropolis.bfhl.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.stereotype.Component;
 
-@Component
 @ConfigurationProperties(prefix = "bfhl.user")
 public class BfhlUserProperties {
 
